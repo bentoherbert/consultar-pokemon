@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +8,23 @@
   <title>Pokémon</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <div class="container">
     <h1>Consultar Pokémons usando <span>html</span>, <span>css</span> e <span>Javascript</span></h1>
     <hr>
     <div class="imagem">
-    <img src="img/pokemon-logo.png">
+      <img src="img/pokemon-logo.png">
     </div>
-
+    <form class="group-form">
+      <label>Nome ou número do Pokémon</label>
+      <input type="text" id="name" placeholder="Exemplo: Pikachu ou 25" required>
+      <input type="submit" value="Buscar">
+    </form>
+    <div id="imgPokemon"> 
   </div>
+  <div id="content">...</div>
+  <script src="script.js"></script>
 </body>
+
 </html>
